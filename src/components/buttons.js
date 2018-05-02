@@ -6,41 +6,43 @@ const Buttons = (props) => {
 
         <div className="first-row" onClick={props.handleInput}>
           <ul>
-            <li className="number">7</li>
-            <li className="number" >8</li>
-            <li className="number">9</li>
-            <li id="devide" className="operator">/</li>
-            <li id="backspace">Del</li>
+            <li>7</li>
+            <li>8</li>
+            <li>9</li>
+            <li id="devide">/</li>
           </ul>
         </div>
 
         <div className="second-row" onClick={props.handleInput}>
           <ul>
-            <li className="number">4</li>
-            <li className="number">5</li>
-            <li className="number">6</li>
-            <li id="multiply" className="operator">*</li>
-            <li id="clear">CE</li>
+            <li>4</li>
+            <li>5</li>
+            <li>6</li>
+            <li id="multiply">*</li>
           </ul>
         </div>
 
         <div className="third-row" onClick={props.handleInput}>
           <ul>
-            <li className="number">1</li>
-            <li className="number">2</li>
-            <li className="number">3</li>
-            <li id="subtract" className="operator">-</li>
-            <li className="equeals">=</li>
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+            <li id="subtract">-</li>
           </ul>
         </div>
 
         <div className="fourth-row">
           <ul>
-            <li className="number" onClick={props.handleInput}>0</li>
-            <li id="sign">+-</li>
-            <li id="dot">.</li>
-            <li id="add" className="operator" onClick={props.handleInput}>+</li>
-            <li className="equals" onClick={props.calculate}>=</li>
+            <li id="del" onClick={props.handleDelete}>del</li>
+            <li onClick={props.handleInput}>0</li>
+            <li id="ce" onClick={props.handleClear}>CE</li>
+            <li id="add" onClick={props.handleInput}>+</li>
+          </ul>
+        </div>
+
+        <div className="fifth-row">
+          <ul>
+            <li id="equals" onClick={props.handleCalculate}>=</li>
           </ul>
         </div>
 

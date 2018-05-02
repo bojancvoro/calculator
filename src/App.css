@@ -7,9 +7,9 @@ body {
 
 .calculator {
 	border: 2px solid gray;
-	max-width: 400px;
+	max-width: 320px;
 	min-height:320px;
-    min-width: 320px;
+    min-width: 300px;
     margin-top: 10%;
     margin-right: auto;
     margin-left: auto;
@@ -56,6 +56,12 @@ body {
 	padding-top:23px;
 	background-color: whitesmoke;
 	color:black;
+	margin: 2px;
+	cursor: pointer;
+}
+
+.fifth-row ul li {
+	width: 272px;
 }
 
 .second-row ul,
