@@ -3,8 +3,6 @@ body {
 	background-size: cover;
 }
 
-/****************************/
-
 .calculator {
 	border: 2px solid gray;
 	max-width: 320px;
@@ -17,7 +15,7 @@ body {
 	background: white;
 }
 
-/* Screen ************************/
+ /* Screen */
 
 .screen {
 	width:90%;
@@ -28,18 +26,13 @@ body {
     border: 2px solid gray;
 }
 
-#screen-relay {
-	position: absolute;
-	margin-left: 10px;
-}
-
 .screen p {
 	float:right;
 	margin-right:10px;
 }
 
 
-/* Buttons **********************/
+/* Buttons */
 
 .first-row ul li,
 .second-row ul li,

@@ -18,7 +18,6 @@ class Calculator extends React.Component {
 
     handleCalculate() {
         const result = eval(this.state.displayData);
-        console.log("state:" + this.state.displayData, "result:", result);
         this.setState({ displayData: result })
     }
 

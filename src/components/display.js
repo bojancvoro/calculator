@@ -3,8 +3,7 @@ import React from "react";
 const Display = (props) => {
     return (
         <div className="screen">
-            <p id="screen-relay"></p>
-            <p id="output">{props.displayData}</p>
+            <p>{props.displayData}</p>
         </div>
     )
 }

@@ -18,7 +18,7 @@ const Buttons = (props) => {
             <li>4</li>
             <li>5</li>
             <li>6</li>
-            <li id="multiply">*</li>
+            <li>*</li>
           </ul>
         </div>
 
@@ -27,22 +27,22 @@ const Buttons = (props) => {
             <li>1</li>
             <li>2</li>
             <li>3</li>
-            <li id="subtract">-</li>
+            <li>-</li>
           </ul>
         </div>
 
         <div className="fourth-row">
           <ul>
-            <li id="del" onClick={props.handleDelete}>del</li>
+            <li onClick={props.handleDelete}>del</li>
             <li onClick={props.handleInput}>0</li>
-            <li id="ce" onClick={props.handleClear}>CE</li>
-            <li id="add" onClick={props.handleInput}>+</li>
+            <li onClick={props.handleClear}>CE</li>
+            <li onClick={props.handleInput}>+</li>
           </ul>
         </div>
 
         <div className="fifth-row">
           <ul>
-            <li id="equals" onClick={props.handleCalculate}>=</li>
+            <li onClick={props.handleCalculate}>=</li>
           </ul>
         </div>
 
